@@ -1,3 +1,10 @@
+/**
+ * File: main.js
+ * Author: Jayce Baxter
+ * Date: April 18th, 2025
+ * Description: JavaScript file for bear website
+ */
+
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
