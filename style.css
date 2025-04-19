@@ -7,7 +7,7 @@ html, body {
 
 html {
   font-size: 10px;
-  background-color: #dde;
+  background-color: #6F9C50;
 }
 
 body {
@@ -51,8 +51,8 @@ p, li, table {
 
 /* || header layout */
 
-div[class="nav"], article, footer, .secondary {
-  background-color: green;
+nav, article, footer, .secondary {
+  background-color: white;
 }
 
 article, footer, .secondary {
@@ -61,30 +61,31 @@ article, footer, .secondary {
 
 article {
   margin-right: 10px;
+  background-color: white;
 }
 
-div[class="nav"] {
+nav {
   height: 50px;
-  background-color: ff80ff;
+  background-color: white;
   display: flex;
   padding: 1% 0;
   margin-bottom: 10px;
 }
 
-div[class="nav"] ul {
+nav ul {
   padding: 0;
   list-style-type: none;
   flex: 2;
   display: flex;
 }
 
-div[class="nav"] li {
+nav li {
   display: inline;
   text-align: center;
   flex: 1;
 }
 
-div[class="nav"] a {
+nav a {
   display: inline-block;
   font-size: 2rem;
   text-transform: uppercase;
@@ -92,7 +93,7 @@ div[class="nav"] a {
   color: black;
 }
 
-div[class="nav"] .search {
+nav .search {
   flex: 1;
   display: flex;
   align-items: center;
@@ -129,6 +130,7 @@ article {
 
 .secondary {
   flex: 2;
+  color: black;
 }
 
 footer {
@@ -247,4 +249,10 @@ audio {
 
 .comment-container li p:nth-child(2) {
   flex: 5;
+}
+
+.secondary {
+  a {
+    color: black;
+  }
 }
